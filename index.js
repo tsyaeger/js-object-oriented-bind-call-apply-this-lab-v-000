@@ -12,5 +12,5 @@ function setThisWithCall(fn, thisValue, arg) {
 
 
 function setThisWithApply(fn, thisValue, args) {
-  fn(thisValue, args)
+  fn.apply(thisValue, args)
 }
